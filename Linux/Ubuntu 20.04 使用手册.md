@@ -22,51 +22,47 @@
 
 1. 选择 VMware 菜单中的 虚拟机 -> **安装VMware Tools**。 或者点击下图中的 **安装Tools**
 
-![](https://raw.githubusercontent.com/smashinggit/Note/master/Linux/assets/%E5%AE%89%E8%A3%85%20VMware%20Tools_1.png)
+![](C:\Users\Administrator\Desktop\安装 VMware Tools_1.png)
 
 
 
 2. 会在虚拟机界面中出现一个弹框，选择是
 
-![](https://raw.githubusercontent.com/smashinggit/Note/master/Linux/assets/%E5%AE%89%E8%A3%85%20VMware%20Tools_2.png)
+![](C:\Users\Administrator\Desktop\安装 VMware Tools_2.png)
 
 
 
 3. 打开文件管理窗口，左边找到 **VMware Tools**， 打开后里面有个gz压缩包
 
-![](https://raw.githubusercontent.com/smashinggit/Note/master/Linux/assets/%E5%AE%89%E8%A3%85%20VMware%20Tools_3.png)
+![](C:\Users\Administrator\Desktop\安装 VMware Tools_3.png)
 
 
 
 4. 把这个压缩包复制到我们自己的用户文档文件夹中（位置随意，图中是放到了新建的名称为 VMwareTools 的文件夹内）
 
-![](https://raw.githubusercontent.com/smashinggit/Note/master/Linux/assets/%E5%AE%89%E8%A3%85%20VMware%20Tools_4.png)
-
-
+![](C:\Users\Administrator\Desktop\安装 VMware Tools_4.png)
 
 5.  双击使用解压工具进行解压，也可使用命令行 tar -xzvf VMwareTools-10.3.23-16594550.tar.gz 进行解压。
 
    解压后发现里面的文件中有个 vmware-install.pl 文件。
 
-![](https://raw.githubusercontent.com/smashinggit/Note/master/Linux/assets/%E5%AE%89%E8%A3%85%20VMware%20Tools_5.png)
-
-
+![](C:\Users\Administrator\Desktop\安装 VMware Tools_5.png)
 
 6. 在这个解压后的文件夹中，鼠标移动到空白区域， 右键--**在终端打开**
 
-![](https://raw.githubusercontent.com/smashinggit/Note/master/Linux/assets/%E5%AE%89%E8%A3%85%20VMware%20Tools_6.png)
+![](C:\Users\Administrator\Desktop\安装 VMware Tools_6.png)
 
 
 
 7. 在终端中输入 sudo ./vmware-install.pl 。 之后按照系统提示，输入 yes 或者 提示的目录。 
 
-![](https://raw.githubusercontent.com/smashinggit/Note/master/Linux/assets/%E5%AE%89%E8%A3%85%20VMware%20Tools_7.png)
+![](C:\Users\Administrator\Desktop\安装 VMware Tools_7.png)
 
 
 
 当出现以下信息时，证明安装成功
 
-![](https://raw.githubusercontent.com/smashinggit/Note/master/Linux/assets/%E5%AE%89%E8%A3%85%20VMware%20Tools_8.png)
+![](C:\Users\Administrator\Desktop\安装 VMware Tools_8.png)
 
 
 
